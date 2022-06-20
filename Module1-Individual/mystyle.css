@@ -1,0 +1,8 @@
+body {background-color: lightblue;}
+div {background-color: #FFF; width: 800px; margin: 0 auto; padding: 30px; border: 1px solid black;}
+h1 {text-align: left;}
+img.birthday {width: 500px;}
+img.heart {border: solid lightblue;}
+a {color: green; font-family: arial, courier; font-weight: bold;}
+p {text-align: center; font-family: Verdana, sans-serif; font-style: italic;}
+h2 {text-align: right;}
