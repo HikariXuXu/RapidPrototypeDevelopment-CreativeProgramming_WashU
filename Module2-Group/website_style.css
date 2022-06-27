@@ -1,0 +1,11 @@
+body {background-color: lightblue;}
+div.all {background-color: #FFF; width: 800px; margin: 0 auto; padding: 30px; border: 1px solid black;}
+div.log_in {text-align: right;}
+div.return {text-align: left;}
+h1 {text-align: left;}
+img.home_page_logo {width: 800px;}
+img.logo {width: 600px;}
+a {color: lightblue; font-family: arial, courier; font-weight: bold;}
+p {text-align: center; font-family: Verdana, sans-serif; font-style: italic;}
+p.link {color:lightblue}
+h2 {text-align: right;}
