@@ -1,9 +1,4 @@
-# CSE330
-Kaiyu Zhang - 489920 - kaiyuky
-
-Minghao Xu - 502549 - HikariXuXu
-
-# Module 2
+# Module 2 Group Assignment
 
 ## Assignment link
 http://ec2-18-191-155-206.us-east-2.compute.amazonaws.com/~MarkXu/FileSharingSystem/home.html
