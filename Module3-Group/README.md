@@ -1,8 +1,3 @@
-# CSE330
-Kaiyu Zhang - 489920 - kaiyuky
-
-Minghao Xu - 502549 - HikariXuXu
-
 # Module 3 Group Assignment
 
 ## Assignment link
