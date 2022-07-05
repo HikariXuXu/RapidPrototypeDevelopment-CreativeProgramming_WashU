@@ -13,3 +13,15 @@ The code in WashU 2022 Summer CSE 503S Rapid Prototype Development and Creative 
 - Customize file sharing site by implementing an additional feature or two as part of the creative portion.
 ### Module 2 - Individual Assignments
 1. **Make a calculator using PHP and an HTML form.** The form should have two inputs. The form should submit a GET request either back to the same page or to a different results page. The calculator should support addition, subtraction, multiplication, and division by means of a radio button group on the page.
+### Module 3 - Group Assignments
+1. **Simple News Web Site.**
+- Users can register for accounts and then log in to the website.
+- Accounts should have both a username and a secure password. NEVER store plaintext passwords in a database!
+- For more information on password security, refer to the Web Application Security guide.
+- Registered users can submit story commentary.
+- A link can be associated with each story, and they should be stored in a separate database field from the story.
+- Registered users can comment on any story.
+- Unregistered users can only view stories and comments.
+- Registered users can edit and delete their stories and comments.
+- All data must be kept in a MySQL database (user information, stories, comments, and links).
+- Creative Portion. (Change password, delete account, personal profile, comments).
