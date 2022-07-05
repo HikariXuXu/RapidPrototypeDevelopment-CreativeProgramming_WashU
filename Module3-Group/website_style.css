@@ -1,0 +1,12 @@
+body {background-color: rgb(248, 212, 72);}
+div.all {background-color: #FFF; width: 800px; margin: 0 auto; padding: 30px; border: 1px solid black;}
+div.log_in {text-align: right;}
+div.return {text-align: left;}
+div.comment {background-color: #FFF; width: 740px; margin: 5 auto; padding: 30px; border: 1px solid gainsboro;}
+h1 {text-align: left;}
+img.home_page_logo {width: 800px;}
+img.logo {width: 600px;}
+a {color: rgb(248, 212, 72); font-family: arial, courier; font-weight: bold;}
+p {text-align: center; font-family: Verdana, sans-serif; font-style: italic;}
+p.link {color:rgb(248, 212, 72)}
+h2 {text-align: right;}
