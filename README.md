@@ -25,3 +25,10 @@ The code in WashU 2022 Summer CSE 503S Rapid Prototype Development and Creative 
 - Registered users can edit and delete their stories and comments.
 - All data must be kept in a MySQL database (user information, stories, comments, and links).
 - Creative Portion. (Change password, delete account, personal profile, comments).
+### Module 4 - Individual Assignments
+1. **Write some Regular Expressions.** Write regular expressions that do each the following:
+- Match the substring "hello world" in a string.
+- Find all words in an input string that contains three or more consecutive vowels, regardless of case.
+- Match an input string that is entirely a flight code, of the format AA####, where AA is a two-letter uppercase airline code, and #### is a three- or four-digit flight number.
+2. **Baseball Stats Counter.** The St. Louis Cardinals are the most legendary baseball team in the national league. In this exercise, I created a Python script that reads box scores from a file and computes the Cardinals' players' batting averages in a particular season.
+
