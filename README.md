@@ -31,4 +31,26 @@ The code in WashU 2022 Summer CSE 503S Rapid Prototype Development and Creative 
 - Find all words in an input string that contains three or more consecutive vowels, regardless of case.
 - Match an input string that is entirely a flight code, of the format AA####, where AA is a two-letter uppercase airline code, and #### is a three- or four-digit flight number.
 2. **Baseball Stats Counter.** The St. Louis Cardinals are the most legendary baseball team in the national league. In this exercise, I created a Python script that reads box scores from a file and computes the Cardinals' players' batting averages in a particular season.
+### Module 5 - Group Assignments
+1. **Build a simple calendar that allows users to add and remove events dynamically.** 
+- Support a month-by-month view of the calendar.
+- Users can register and log in to the website.
+- Unregistered users should see no events on the calendar.
+- Registered users can add events.
+- Registered users see only events that they have added.
+- Registered users can edit and delete their own events, but not the events of others.
+- All user and event data should be kept in a database.
+- At no time should the main page need to be reloaded.
+### Module 5 - Individual Assignments
+1. **JavaScript Calculator**
+- The web page should have two input fields and a radio button group for the operation, with the 4 basic math operations represented (add, subtract, multiply, divide).
+- JavaScript should monitor all three fields and display the current result whenever the user changes any value in any field, without refreshing the page.
+- The calculator should be completely self-contained; i.e., you should not be making any requests to any other server-side or client-side scripts or web pages after the initial page load.
+2. **Weather Widget**
+- Make an empty HTML document; name it weather.html
+- Define a function in JavaScript; call it fetchWeather().
+- Inside your fetchWeather() function, make an AJAX request to the weather server.
+- In your callback, process the JSON and use JavaScript to manipulate the HTML DOM to display the following information on your page: Location, City, State, Humidity, Current Temperature, Image for Tomorrow's Forecast, Image for the Day After Tomorrow's Forecast.
+- Finally, bind fetchWeather() to the DOMContentLoaded event so that your weather widget is automatically initialized when the page is loaded.
+- In addition, add a button that runs your fetchWeather function when clicked. This should update your widget with the current weather conditions.
 
