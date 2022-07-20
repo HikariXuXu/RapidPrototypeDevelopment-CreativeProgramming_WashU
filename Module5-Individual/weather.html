@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Weather Widget
+        </title>
+        <link rel="stylesheet" type="text/css" href="https://classes.engineering.wustl.edu/cse330/content/weather.css"/>
+    </head>
+    <body>
+        <div class="weather" id="weatherWidget">
+            <div class="weather-loc"></div>
+            <div class="weather-humidity"></div>
+            <div class="weather-temp"></div>
+            <img class="weather-tomorrow" />
+            <img class="weather-dayaftertomorrow" />
+        </div>
+        <button id="btn">
+            Update
+        </button>
+        <script>
+            document.addEventListener("DOMContentLoaded", fetchWeather, false);
+            document.getElementById("btn").addEventListener("click", fetchWeather, false);
+            function fetchWeather() {
+                const xmlHttp = new XMLHttpRequest();
+                xmlHttp.open("GET", "https://classes.engineering.wustl.edu/cse330/content/weather_json.php", true);
+                xmlHttp.addEventListener("load", myCallbackFunction, false);
+                xmlHttp.send(null);
+            }
+
+            function myCallbackFunction(event) {
+                let weatherData = JSON.parse(event.target.responseText);
+                document.getElementsByClassName("weather-loc")[0].innerHTML = "<strong>"+weatherData.location.city+"</strong>"+" "+weatherData.location.state;
+                document.getElementsByClassName("weather-humidity")[0].innerHTML = weatherData.atmosphere.humidity;
+                document.getElementsByClassName("weather-temp")[0].innerHTML = weatherData.current.temp;
+                document.getElementsByClassName("weather-tomorrow")[0].src = "http://us.yimg.com/i/us/nws/weather/gr/"+weatherData.tomorrow.code+"ds.png";
+                document.getElementsByClassName("weather-dayaftertomorrow")[0].src = "http://us.yimg.com/i/us/nws/weather/gr/"+weatherData.dayafter.code+"ds.png";
+            }
+        </script>
+    </body>
+</html>
